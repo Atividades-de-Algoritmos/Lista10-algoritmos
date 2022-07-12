@@ -17,4 +17,7 @@ def reverso(valor): # função recursiva
 
 # programa principal
 valor = input("Digite uma string: ") # lê a string e armazena na variável valor
+print(f"A String original é: {valor}") # faz a impressão da string original
 print(f"O reverso da string é: {reverso(valor)}") # faz a impressão do reverso da string
+
+
