@@ -16,20 +16,20 @@
 
 # funções
 # a
-def ler_temperaturaC(): 
-    temperaturaC = float(input("Digite a temperatura em graus Celsius: "))
-    return temperaturaC
+def ler_temperaturaC():  # função para ler e retorna o valor da temperatura (não recebe parâmetro)
+    temperaturaC = float(input("Digite a temperatura em graus Celsius: ")) # lê a temperatura em graus Celsius e armazena na variável temperaturaC
+    return temperaturaC # retorna o valor da temperatura em graus Celsius
 
 # b
-def calcular_temperaturaF(temperaturaC):
-    temperaturaF = (9 * temperaturaC + 160) / 5
-    return temperaturaF
+def calcular_temperaturaF(temperaturaC): # função para fazer o cálculo (recebe como parâmetro a temperatura em graus Celsius)
+    temperaturaF = (9 * temperaturaC + 160) / 5 # faz o cálculo da temperatura em graus Fahrenheit e armazena na variável temperaturaF
+    return temperaturaF # retorna o valor da temperatura em graus Fahrenheit
 
 # c
-def mostrar_temperaturaF(temperaturaF):
-    print(f"A temperatura em graus Fahrenheit é:  {temperaturaF}")
+def mostrar_temperaturaF(temperaturaF): # função para mostrar o resultado, recebendo como parâmetro o valor e fazendo a impressão (recebe como parâmetro a temperatura em graus Fahrenheit)
+    print(f"A temperatura em graus Fahrenheit é:  {temperaturaF}") # faz a impressão da temperatura em graus Fahrenheit
 
 # programa principal
-temperaturaC = ler_temperaturaC()
-temperaturaF = calcular_temperaturaF(temperaturaC)
-mostrar_temperaturaF(temperaturaF)
+temperaturaC = ler_temperaturaC() # chama a função ler_temperaturaC para ler e retorna o valor da temperatura em graus Celsius e armazena na variável temperaturaC
+temperaturaF = calcular_temperaturaF(temperaturaC) # chama a função calcular_temperaturaF para fazer o cálculo da temperatura em graus Fahrenheit e armazena na variável temperaturaF
+mostrar_temperaturaF(temperaturaF) # chama a função mostrar_temperaturaF para mostrar o resultado, recebendo como parâmetro o valor e fazendo a impressão da temperatura em graus Fahrenheit
