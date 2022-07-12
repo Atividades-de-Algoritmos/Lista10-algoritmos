@@ -42,6 +42,8 @@ def calcular_valor_real(valor, taxa): # função para fazer o cálculo (recebe c
     valor_real = valor * taxa # faz o cálculo do valor em real e armazena na variável valor_real
     return valor_real # retorna o valor em real
 
+
+
 # programa principal
 opcoes = {'R': "Real para Dólar", 'D': "Dólar para Real"} # cria um dicionário com as opções de conversão
 for i in opcoes: # percorre o dicionário
