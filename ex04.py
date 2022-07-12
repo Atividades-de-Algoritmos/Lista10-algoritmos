@@ -8,6 +8,12 @@
 #
 # 4. Crie um programa que permita o usuário escolher entre fazer a conversão cambial de real para dólar ou de
 # dólar para real. O usuário deve informar o valor e taxa de câmbio para 1U$.
+# OBS: o programa de conter quatro funções:
+# a - Função para ler e retorna o valor (recebe como parâmetro a opção)
+# b - Função para ler e retorna a taxa de câmbio (não recebe parâmetro)
+# c - Função para fazer o cálculo do valor em dólar (recebe como parâmetro o valor e a taxa de câmbio)
+# d - Função para fazer o cálculo do valor em real (recebe como parâmetro o valor e a taxa de câmbio)
+
 
 # a
 def ler_valor(opcao): # função para ler e retorna o valor
@@ -45,6 +51,7 @@ for i in opcoes: # percorre o dicionário
 opcao_escolhida = input("Escolha a opção de conversão: ") # lê a opção de conversão e armazena na variável opcao_escolhida
 valor = ler_valor(opcao_escolhida) # chama a função ler_valor para ler e retorna o valor (recebe como parâmetro a opção de conversão)
 taxa = ler_taxa() # chama a função ler_taxa para ler e retorna a taxa de câmbio (não recebe parâmetro)
+
 if opcao_escolhida in "Rr": # condição para selecionar a opção de conversão de real para dólar
     print(f"O valor em dólar é: {calcular_valor_dolar(valor, taxa)}") # faz a impressão do valor em dólar
 elif opcao_escolhida in "Dd": # condição para selecionar a opção de conversão de dólar para real
