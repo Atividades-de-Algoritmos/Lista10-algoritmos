@@ -21,13 +21,13 @@
             <a href="#ex01">Exercício 01 -> Convertendo Temperaturas</a>
         </li>
         <li>
-            <a href="#ex02">Exercício 02 -> None</a>
+            <a href="#ex02">Exercício 02 -> Calculando Gasolina</a>
         </li>
         <li>
-            <a href="#ex03">Exercício 03 -> None</a>
+            <a href="#ex03">Exercício 03 -> Função Recursiva</a>
         </li>
         <li>
-            <a href="#ex04">Exercício 04 -> None</a>
+            <a href="#ex04">Exercício 04 -> Conversor de moeda</a>
         </li>
     </ol>
 </details>
